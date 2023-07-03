@@ -25,7 +25,7 @@ const utenteCheEffettuaLAcquisto = {
   const shippingCost = 50;
   
   // Calcolo del costo totale del carrello
-  let costoTotale = 10;
+  let costoTotale = 0;
 
   //eseguo un loop for attraverso l'array prices e calcolare il costo totale del carrello. 
   //In ogni iterazione, il prezzo dell'elemento corrente viene aggiunto al costo totale.
@@ -46,7 +46,8 @@ const utenteCheEffettuaLAcquisto = {
   
   console.log("Il costo totale del carrello è: " + costoTotale);
   
-  //Stampa delle informazioni sull'utente
+  
+  
   //Viene costruita una stringa stringaBase che contiene il nome e il cognome dell'utente che effettua l'acquisto. 
   //Se l'utente è un ambassador, viene aggiunto il testo "è un ambassador" alla stringa, altrimenti viene aggiunto 
   //il testo "non è un ambassador
